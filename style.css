@@ -148,3 +148,19 @@ nav {
 #filter {
   margin-left: auto;
 }
+
+/* Card layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+div.card-footer {
+  display: flex;
+  /* align-items: center; */
+}
+div.card-footer p {
+  margin-left: auto;
+}
