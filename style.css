@@ -1,3 +1,5 @@
+/*Provided code */
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +13,6 @@ body {
 nav {
   background-color: white;
   padding: 8px 16px;
-  display: flex;
 }
 
 p {
@@ -97,6 +98,13 @@ nav button {
   padding: 6px 15px;
 }
 
+/* Added code */
+
+/* Navbar */
+nav {
+  display: flex;
+}
+
 #destinations,
 #actions {
   display: flex;
@@ -107,4 +115,27 @@ nav button {
 
 #actions {
   margin-left: auto;
+}
+
+/* Hero */
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#hero #headers {
+  justify-content: center;
+}
+
+#hero input {
+  margin: 0 auto;
+}
+
+#hero #trending {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
 }
