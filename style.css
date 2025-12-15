@@ -139,3 +139,12 @@ nav {
   gap: 16px;
   margin-top: 16px;
 }
+
+/* Subnav */
+#subnav {
+  display: flex;
+}
+
+#filter {
+  margin-left: auto;
+}
